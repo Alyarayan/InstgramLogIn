@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/nature"
+
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/colorfulbackground"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font"
+        android:textColor="#fff"
+        android:text="Instagram"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        />
+
+<de.hdodenhof.circleimageview.CircleImageView
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="150dp"
+    app:civ_border_color="#fff"
+    app:civ_border_width="2dp"
+    android:src="@drawable/man"
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SIGN IN AS JOHN"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="280dp"
+        android:id="@+id/signtxt"
+
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remove"
+        android:textColor="#fff"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/signtxt"
+        android:layout_marginTop="20dp"
+        android:id="@+id/removetxt"
+        android:textStyle="bold"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3B5998"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_below="@id/removetxt"
+        android:layout_marginTop="40dp"
+        android:text="JOIN WITH FACEBOOK"
+        android:textColor="#fff"
+        android:drawableLeft="@drawable/facebook"
+        android:id="@+id/btn"
+        android:padding="9dp"
+
+
+        />
+
+</RelativeLayout>
+
+
+
+
+</RelativeLayout>
